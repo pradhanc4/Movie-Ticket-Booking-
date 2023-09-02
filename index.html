@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Movie Booking</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,400'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Khula'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper"> 
+	<div class="side">
+		<div class="bg"></div>
+		<div>
+			<h3>MOVIES TICKET</h3>
+		</div>
+		<ul class="menu">
+			<li title="" class="selected"><i class="zmdi zmdi-label-alt"></i> Today</li>
+		</ul>
+	</div>
+	<div class="main-wrap">
+		<div class="main">
+			<div class="list">
+				<div class="scroll">
+					<button class="scrollTop"><i class="zmdi zmdi-arrow-left"></i></button>
+					<button class="scrollDown"><i class="zmdi zmdi-arrow-right"></i></button>
+				</div>
+				<header>
+					<ul class="filter">
+						<li data-gid="," class="selected">Homes</li>
+						<li data-gid="28">movies</li>
+						<li data-gid="12">venues</li>
+					</ul>
+				</header>
+				<div class="content">
+					<ul class="covers"></ul>
+				</div>
+			</div>
+			<div class="checkout">
+				<div class="sinopsis">
+					<button class="back">
+						<i class="zmdi zmdi-arrow-left"></i>
+					</button>						
+					<img class="cover" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8zw8AAhMBENYXhyAAAAAASUVORK5CYII=" style="background-image: url(https://image.tmdb.org/t/p/w300//gfJGlDaHuWimErCr5Ql0I8x9QSy.jpg)">
+					<h3>Wonder Woman</h3>
+					<p>An Amazon princess comes to the world of Man to become the greatest of the female superheroes.</p>
+					<span>Wed, 28 Jun </span>
+					<small>16:00 (2h 15m)</small>
+					<rating>500</rating>
+				</div>
+				<section>
+					<ul class="legend">
+						<li>available</li>
+						<li>taken</li>
+					</ul>
+					<span>Select your seats</span>
+					<div class="seats"></div>
+					<div class="screen">screen</div>
+				</section>
+				<div class="total">
+					<small>Total </small><span>$0</span>
+					<button>CHECKOUT</button>
+					<div class="loader"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
